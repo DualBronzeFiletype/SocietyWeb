@@ -8,7 +8,7 @@ For example:
 ```
 
 The output would look like this:
-![image](https://raw.githubusercontent.com/DualBronzeFiletype/SocietyWeb/alpha/src/images/output.png)
+![image](https://github.com/DualBronzeFiletype/SocietyWeb/blob/ab925d20909eb9409b26682fb334c272c8b54295/src/images/output.png?raw=true)
 
 Also please use tabs instead of spaces so your nad others ide or light editor can format it to your's and others liking.
 
