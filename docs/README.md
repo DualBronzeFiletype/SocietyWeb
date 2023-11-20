@@ -5,4 +5,4 @@ Please do edits on the alpha branch instead of here if you want to do small chan
 
 [Website Link](https://dualbronzefiletype.github.io/SocietyWeb/)
 
-[Code of Conduct](https://github.com/DualBronzeFiletype/SocietyWeb/blob/alpha/CODE_OF_CONDUCT.md)
+[Code of Conduct](https://github.com/DualBronzeFiletype/SocietyWeb/blob/main/docs/CODE_OF_CONDUCT.md)
