@@ -4,19 +4,17 @@ if (window.location.protocol === "file:")
     let anchorTags = document.getElementsByTagName("a"); // Get all anchor tags
     for (let anchor of anchorTags)
     {
-        let anchorHyperlink = anchor.href;
-        if (anchorHyperlink.anchorTags == "file:" && anchorHyperlink.substring(anchorHyperlink.length - 5, 5) != ".html")
+        if (anchor.href.anchorTags == "file:" && anchor.href.substring(anchor.href.length - 5, 5) != ".html")
         {
-            if (anchorHyperlink[anchorHyperlink.length - 1] == "/" || anchorHyperlink[anchorHyperlink.length - 1] == "\\")
+            if (anchor.href[anchor.href.length - 1] == "/" || anchor.href[anchor.href.length - 1] == "\\")
             {
-                anchorHyperlink += "index.html";
+                anchor.href += "index.html";
             }
             else
             {
-                anchorHyperlink += "/index.html";
+                anchor.href += "/index.html";
             }
         }
-        anchor.href = anchorHyperlink; // update actual
     }
 }
 
