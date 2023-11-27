@@ -4,13 +4,16 @@ if (window.location.protocol === "file:")
     let anchorTags = document.getElementsByTagName("a"); // Get all anchor tags
     for (let anchor of anchorTags)
     {
-        if (anchor.href[-1] == "/" || anchor.href[-1] == "\\")
+        if (anchor.href.anchorTags != "http:" || anchor.href.anchorTags != "https:")
         {
-            anchor.href += "index.html";
-        }
-        else
-        {
-            anchor.href += "/index.html";
+            if (anchor.href[-1] == "/" || anchor.href[-1] == "\\")
+            {
+                anchor.href += "index.html";
+            }
+            else
+            {
+                anchor.href += "/index.html";
+            }
         }
     }
 }
