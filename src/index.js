@@ -6,7 +6,7 @@ if (window.location.protocol === "file:")
     {
         if (anchor.href.anchorTags != "http:" || anchor.href.anchorTags != "https:")
         {
-            if (anchor.href[-1] == "/" || anchor.href[-1] == "\\")
+            if (anchor.href[anchor.href.length - 1] == "/" || anchor.href[anchor.href.length - 1] == "\\")
             {
                 anchor.href += "index.html";
             }
