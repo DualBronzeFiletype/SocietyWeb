@@ -16,6 +16,7 @@ if (window.location.protocol === "file:")
                 anchorHyperlink += "/index.html";
             }
         }
+        anchor.href = anchorHyperlink; // update actual
     }
 }
 
